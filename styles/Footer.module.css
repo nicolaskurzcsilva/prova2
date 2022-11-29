@@ -1,0 +1,31 @@
+.footer {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.div span {
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.div span:hover {
+    color: blueviolet;
+}

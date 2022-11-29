@@ -1,0 +1,60 @@
+.container_todos {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_todos h1 {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s;
+    margin: 2rem 0;
+}
+
+.container_todos h1:hover {
+    color: blueviolet;
+}
+
+.grid_cards {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    }
+
+.card_todos {
+    min-height: 10rem;
+    min-width: 10rem;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.2s ease-in;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.card_todos p, .card_todos span {
+    font-size: 1.2rem;
+}
+
+.card_todos span {
+    font-weight: bold;
+}
+
+.card_todos:hover {
+    transform: scale(1.015);
+    transition: 0.2s ease-in;
+}
